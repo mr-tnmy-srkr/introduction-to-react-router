@@ -2,7 +2,7 @@
 
 const Footer = () => {
   return (
-    <div>
+    <div className="mt-5">
         <h2><small>Thank you</small></h2>
     </div>
   )

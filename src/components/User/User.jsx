@@ -10,7 +10,10 @@ const User = ({user}) => {
         <h2 className="text-4xl">{name}</h2>
         <p>email : {email}</p>
         <p>phone : {phone}</p>
-        <Link to={`/user/${id}`}>Show Details</Link>
+        {/* <Link to={`/user/${id}`}>Show Details</Link> */}
+        <Link to={`/user/${id}`}>
+        <button className="my-5">Show Details</button>
+        </Link>
       
     </div>
   )
